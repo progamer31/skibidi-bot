@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "NovaSmp-KSHA.aternos.me",
-    "port": 43450,
+    "ip": "NovaSmp-KSHA.aternos.me::43450",
+    "port": ,
     "version": "1.21.4",
     "try-creative": false
   },
