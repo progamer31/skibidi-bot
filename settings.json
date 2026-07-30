@@ -2,7 +2,7 @@
   "name": "AFK Bot",
   "bot-account": {
     "username": "AFKBOT247",
-    "password": "",
+    "password": "sixseven67",
     "type": "offline"
   },
   "server": {
@@ -36,13 +36,13 @@
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -59,9 +59,9 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": false,
+    "combat": true,
     "beds": false,
-    "chat": false,
+    "chat": true,
     "console-commands": true
   },
   "combat": {
