@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "NovaSmp-KSHA.aternos.me",
+    "port": 43450,
+    "version": "1.21.4",
     "try-creative": false
   },
   "position": {
@@ -20,14 +20,14 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "sixseven67"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
@@ -36,13 +36,13 @@
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -59,9 +59,9 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
-    "chat": true,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
