@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "NovaSmp-KSHA.aternos.me",
+    "ip": "killifish.aternos.host",
     "port": 43450,
     "version": "1.21.4",
     "try-creative": false
