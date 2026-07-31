@@ -53,11 +53,11 @@ function setupLeaveRejoin(bot, createBot) {
         // Slight backoff for repeated failures, but keep it snappy
         reconnectAttempts++
         if (reconnectAttempts > 3) {
-            delay += 5000 // Add 5s if it's failing a lot
+            delay += 500 // Add 5s if it's failing a lot
         }
 
         // Cap at 30s max
-        delay = Math.min(delay, 15000)
+        delay = Math.min(delay, 1500)
 
         logThrottled(`[AFK] Rejoin scheduled in ${Math.round(delay / 1000)}s (reason: ${reason}, attempt: ${reconnectAttempts})`)
 
